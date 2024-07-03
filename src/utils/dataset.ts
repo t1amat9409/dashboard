@@ -1,0 +1,426 @@
+export const dataset = [
+  {
+    london: 59,
+    paris: 57,
+    newYork: 86,
+    seoul: 21,
+    month: 'Jan',
+  },
+  {
+    london: 50,
+    paris: 52,
+    newYork: 78,
+    seoul: 28,
+    month: 'Feb',
+  },
+  {
+    london: 47,
+    paris: 53,
+    newYork: 106,
+    seoul: 41,
+    month: 'Mar',
+  },
+  {
+    london: 54,
+    paris: 56,
+    newYork: 92,
+    seoul: 73,
+    month: 'Apr',
+  },
+  {
+    london: 57,
+    paris: 69,
+    newYork: 92,
+    seoul: 99,
+    month: 'May',
+  },
+  {
+    london: 60,
+    paris: 63,
+    newYork: 103,
+    seoul: 144,
+    month: 'June',
+  },
+  {
+    london: 59,
+    paris: 60,
+    newYork: 105,
+    seoul: 319,
+    month: 'July',
+  },
+  {
+    london: 65,
+    paris: 60,
+    newYork: 106,
+    seoul: 249,
+    month: 'Aug',
+  },
+  {
+    london: 51,
+    paris: 51,
+    newYork: 95,
+    seoul: 131,
+    month: 'Sept',
+  },
+  {
+    london: 60,
+    paris: 65,
+    newYork: 97,
+    seoul: 55,
+    month: 'Oct',
+  },
+  {
+    london: 67,
+    paris: 64,
+    newYork: 76,
+    seoul: 48,
+    month: 'Nov',
+  },
+  {
+    london: 61,
+    paris: 70,
+    newYork: 103,
+    seoul: 25,
+    month: 'Dec',
+  },
+];
+
+export const uData = [4000, 3000, 2000, 2780, 1890, 2390, 3490, 3040, 500, 3899, 2005, 3050];
+export const pData = [2400, 1398, 9800, 3908, 4800, 3800, 4300, 2290, 2000, 2181, 1450, 300];
+
+export const monthLabels = [
+  "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul",
+  "Aug", "Sep", "Oct", "Nov", "Dec"
+];
+
+export const treeMapData = [
+  {
+    name: 'axis',
+    children: [
+      { name: 'Axes', size: 1302 },
+      { name: 'Axis', size: 24593 },
+      { name: 'AxisGridLine', size: 652 },
+      { name: 'AxisLabel', size: 636 },
+      { name: 'CartesianAxes', size: 6703 },
+    ],
+  },
+  {
+    name: 'controls',
+    children: [
+      { name: 'AnchorControl', size: 2138 },
+      { name: 'ClickControl', size: 3824 },
+      { name: 'Control', size: 1353 },
+      { name: 'ControlList', size: 4665 },
+      { name: 'DragControl', size: 2649 },
+      { name: 'ExpandControl', size: 2832 },
+      { name: 'HoverControl', size: 4896 },
+      { name: 'IControl', size: 763 },
+      { name: 'PanZoomControl', size: 5222 },
+      { name: 'SelectionControl', size: 7862 },
+      { name: 'TooltipControl', size: 8435 },
+    ],
+  },
+  {
+    name: 'data',
+    children: [
+      { name: 'Data', size: 20544 },
+      { name: 'DataList', size: 19788 },
+      { name: 'DataSprite', size: 10349 },
+      { name: 'EdgeSprite', size: 3301 },
+      { name: 'NodeSprite', size: 19382 },
+      {
+        name: 'render',
+        children: [
+          { name: 'ArrowType', size: 698 },
+          { name: 'EdgeRenderer', size: 5569 },
+          { name: 'IRenderer', size: 353 },
+          { name: 'ShapeRenderer', size: 2247 },
+        ],
+      },
+      { name: 'ScaleBinding', size: 11275 },
+      { name: 'Tree', size: 7147 },
+      { name: 'TreeBuilder', size: 9930 },
+    ],
+  },
+  {
+    name: 'events',
+    children: [
+      { name: 'DataEvent', size: 7313 },
+      { name: 'SelectionEvent', size: 6880 },
+      { name: 'TooltipEvent', size: 3701 },
+      { name: 'VisualizationEvent', size: 2117 },
+    ],
+  },
+  {
+    name: 'legend',
+    children: [
+      { name: 'Legend', size: 20859 },
+      { name: 'LegendItem', size: 4614 },
+      { name: 'LegendRange', size: 10530 },
+    ],
+  },
+  {
+    name: 'operator',
+    children: [
+      {
+        name: 'distortion',
+        children: [
+          { name: 'BifocalDistortion', size: 4461 },
+          { name: 'Distortion', size: 6314 },
+          { name: 'FisheyeDistortion', size: 3444 },
+        ],
+      },
+      {
+        name: 'encoder',
+        children: [
+          { name: 'ColorEncoder', size: 3179 },
+          { name: 'Encoder', size: 4060 },
+          { name: 'PropertyEncoder', size: 4138 },
+          { name: 'ShapeEncoder', size: 1690 },
+          { name: 'SizeEncoder', size: 1830 },
+        ],
+      },
+      {
+        name: 'filter',
+        children: [
+          { name: 'FisheyeTreeFilter', size: 5219 },
+          { name: 'GraphDistanceFilter', size: 3165 },
+          { name: 'VisibilityFilter', size: 3509 },
+        ],
+      },
+      { name: 'IOperator', size: 1286 },
+      {
+        name: 'label',
+        children: [
+          { name: 'Labeler', size: 9956 },
+          { name: 'RadialLabeler', size: 3899 },
+          { name: 'StackedAreaLabeler', size: 3202 },
+        ],
+      },
+      {
+        name: 'layout',
+        children: [
+          { name: 'AxisLayout', size: 6725 },
+          { name: 'BundledEdgeRouter', size: 3727 },
+          { name: 'CircleLayout', size: 9317 },
+          { name: 'CirclePackingLayout', size: 12003 },
+          { name: 'DendrogramLayout', size: 4853 },
+          { name: 'ForceDirectedLayout', size: 8411 },
+          { name: 'IcicleTreeLayout', size: 4864 },
+          { name: 'IndentedTreeLayout', size: 3174 },
+          { name: 'Layout', size: 7881 },
+          { name: 'NodeLinkTreeLayout', size: 12870 },
+          { name: 'PieLayout', size: 2728 },
+          { name: 'RadialTreeLayout', size: 12348 },
+          { name: 'RandomLayout', size: 870 },
+          { name: 'StackedAreaLayout', size: 9121 },
+          { name: 'TreeMapLayout', size: 9191 },
+        ],
+      },
+      { name: 'Operator', size: 2490 },
+      { name: 'OperatorList', size: 5248 },
+      { name: 'OperatorSequence', size: 4190 },
+      { name: 'OperatorSwitch', size: 2581 },
+      { name: 'SortOperator', size: 2023 },
+    ],
+  },
+];
+
+export const data1 = [
+  { label: 'Group A', value: 400 },
+  { label: 'Group B', value: 300 },
+  { label: 'Group C', value: 300 },
+  { label: 'Group D', value: 200 },
+];
+
+export const data2 = [
+  { label: 'A1', value: 100 },
+  { label: 'A2', value: 300 },
+  { label: 'B1', value: 100 },
+  { label: 'B2', value: 80 },
+  { label: 'B3', value: 40 },
+  { label: 'B4', value: 30 },
+  { label: 'B5', value: 50 },
+  { label: 'C1', value: 100 },
+  { label: 'C2', value: 200 },
+  { label: 'D1', value: 150 },
+  { label: 'D2', value: 50 },
+];
+export const series = [
+  {
+    innerRadius: 0,
+    outerRadius: 80,
+    id: 'series-1',
+    data: data1,
+  },
+  {
+    innerRadius: 100,
+    outerRadius: 120,
+    id: 'series-2',
+    data: data2,
+  },
+];
+
+export const data = [
+  {
+    id: 'data-0',
+    x1: 329.39,
+    x2: 391.29,
+    y1: 443.28,
+    y2: 153.9,
+  },
+  {
+    id: 'data-1',
+    x1: 96.94,
+    x2: 139.6,
+    y1: 110.5,
+    y2: 217.8,
+  },
+  {
+    id: 'data-2',
+    x1: 336.35,
+    x2: 282.34,
+    y1: 175.23,
+    y2: 286.32,
+  },
+  {
+    id: 'data-3',
+    x1: 159.44,
+    x2: 384.85,
+    y1: 195.97,
+    y2: 325.12,
+  },
+  {
+    id: 'data-4',
+    x1: 188.86,
+    x2: 182.27,
+    y1: 351.77,
+    y2: 144.58,
+  },
+  {
+    id: 'data-5',
+    x1: 143.86,
+    x2: 360.22,
+    y1: 43.253,
+    y2: 146.51,
+  },
+  {
+    id: 'data-6',
+    x1: 202.02,
+    x2: 209.5,
+    y1: 376.34,
+    y2: 309.69,
+  },
+  {
+    id: 'data-7',
+    x1: 384.41,
+    x2: 258.93,
+    y1: 31.514,
+    y2: 236.38,
+  },
+  {
+    id: 'data-8',
+    x1: 256.76,
+    x2: 70.571,
+    y1: 231.31,
+    y2: 440.72,
+  },
+  {
+    id: 'data-9',
+    x1: 143.79,
+    x2: 419.02,
+    y1: 108.04,
+    y2: 20.29,
+  },
+  {
+    id: 'data-10',
+    x1: 103.48,
+    x2: 15.886,
+    y1: 321.77,
+    y2: 484.17,
+  },
+  {
+    id: 'data-11',
+    x1: 272.39,
+    x2: 189.03,
+    y1: 120.18,
+    y2: 54.962,
+  },
+  {
+    id: 'data-12',
+    x1: 23.57,
+    x2: 456.4,
+    y1: 366.2,
+    y2: 418.5,
+  },
+  {
+    id: 'data-13',
+    x1: 219.73,
+    x2: 235.96,
+    y1: 451.45,
+    y2: 181.32,
+  },
+  {
+    id: 'data-14',
+    x1: 54.99,
+    x2: 434.5,
+    y1: 294.8,
+    y2: 440.9,
+  },
+  {
+    id: 'data-15',
+    x1: 134.13,
+    x2: 383.8,
+    y1: 121.83,
+    y2: 273.52,
+  },
+  {
+    id: 'data-16',
+    x1: 12.7,
+    x2: 270.8,
+    y1: 287.7,
+    y2: 346.7,
+  },
+  {
+    id: 'data-17',
+    x1: 176.51,
+    x2: 119.17,
+    y1: 134.06,
+    y2: 74.528,
+  },
+  {
+    id: 'data-18',
+    x1: 65.05,
+    x2: 78.93,
+    y1: 104.5,
+    y2: 150.9,
+  },
+  {
+    id: 'data-19',
+    x1: 162.25,
+    x2: 63.707,
+    y1: 413.07,
+    y2: 26.483,
+  },
+  {
+    id: 'data-20',
+    x1: 68.88,
+    x2: 150.8,
+    y1: 74.68,
+    y2: 333.2,
+  },
+  {
+    id: 'data-21',
+    x1: 95.29,
+    x2: 329.1,
+    y1: 360.6,
+    y2: 422.0,
+  },
+  {
+    id: 'data-22',
+    x1: 390.62,
+    x2: 10.01,
+    y1: 330.72,
+    y2: 488.06,
+  },
+];
